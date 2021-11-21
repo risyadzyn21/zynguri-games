@@ -1,3 +1,15 @@
-.navbar-appbar {
-  background-color: #1f1d36;
+@import "../../assets/abstracts/variables";
+
+.navbar {
+  display: flex;
+  height: 50px;
+
+  .navbar-logo {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    color: $text-white-color;
+    align-items: center;
+  }
 }
