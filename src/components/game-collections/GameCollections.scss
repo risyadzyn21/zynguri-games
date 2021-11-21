@@ -1,0 +1,15 @@
+@import "../../assets/abstracts/variables";
+
+.game-box {
+  .game-img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 180px;
+  }
+
+  .game-info {
+    color: $text-white-color;
+    text-decoration: none;
+  }
+}

@@ -12,13 +12,13 @@ function GamesCarousel() {
         showArrows={false}
         showStatus={false}>
         <div>
-          <img alt="" src="https://wallpaperaccess.com/full/653675.jpg" />
+          <img alt="" src="https://cdn.wallpapersafari.com/16/40/LfsDlt.jpg" />
         </div>
         <div>
           <img alt="" src="https://wallpapercave.com/wp/wp4525458.jpg" />
         </div>
         <div>
-          <img alt="" src="https://wallpaperaccess.com/full/3516099.jpg" />
+          <img alt="" src="https://wallpaperaccess.com/full/2426440.jpg" />
         </div>
       </Carousel>
     </div>
