@@ -2,6 +2,7 @@ import * as actions from '../actions'
 
 const initialState = {
   genresFiltered: 'day',
+  genres: [],
   games: [],
   isLoading: false,
   hasErrors: false
@@ -22,6 +23,25 @@ function gamesReducer(state = initialState, action) {
 
       };
     case actions.GET_GAMES_FAILURE:
+      return {
+        ...state,
+        isLoading: false,
+        hasErrors: action.error
+      };
+
+    case actions.GET_GENRES:
+      return {
+        ...state,
+        isLoading: true
+      };
+    case actions.GET_GENRES_SUCCESS:
+      return {
+        ...state,
+        genres: action.payload,
+        isLoading: false
+
+      };
+    case actions.GET_GENRES_FAILURE:
       return {
         ...state,
         isLoading: false,
